@@ -1,4 +1,4 @@
 import { Observable } from '../../Observable';
-import { generate as staticGenerate } from '../../observable/generate';
-Observable.generate = staticGenerate;
+import { GenerateObservable } from '../../observable/GenerateObservable';
+Observable.generate = GenerateObservable.create;
 //# sourceMappingURL=generate.js.map

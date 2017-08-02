@@ -1,4 +1,4 @@
 import { Observable } from '../../Observable';
-import { onErrorResumeNext as staticOnErrorResumeNext } from '../../observable/onErrorResumeNext';
-Observable.onErrorResumeNext = staticOnErrorResumeNext;
+import { onErrorResumeNextStatic } from '../../operator/onErrorResumeNext';
+Observable.onErrorResumeNext = onErrorResumeNextStatic;
 //# sourceMappingURL=onErrorResumeNext.js.map

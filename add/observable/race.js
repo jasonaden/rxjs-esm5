@@ -1,4 +1,4 @@
 import { Observable } from '../../Observable';
-import { race as staticRace } from '../../observable/race';
-Observable.race = staticRace;
+import { raceStatic } from '../../operator/race';
+Observable.race = raceStatic;
 //# sourceMappingURL=race.js.map
